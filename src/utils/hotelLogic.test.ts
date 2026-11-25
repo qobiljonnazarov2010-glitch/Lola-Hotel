@@ -81,9 +81,9 @@ test('rooms and gallery cover all uploaded assets without missing paths', () => 
   assert.ok(ROOMS.length >= 4);
   assert.equal(GALLERY_PHOTOS.length, 13);
   assert.equal(HOTEL_CONFIG.brandName, 'Lola Hotel');
-  assert.equal(HOTEL_CONFIG.images.logo, '/assets/aistudio/logo_transparent.png');
+  assert.equal(HOTEL_CONFIG.images.logo, 'assets/aistudio/logo_transparent.png');
   for (const photo of GALLERY_PHOTOS) {
-    assert.ok(photo.src.startsWith('/assets/aistudio/'));
+    assert.ok(photo.src.startsWith('assets/aistudio/'));
   }
 });
 

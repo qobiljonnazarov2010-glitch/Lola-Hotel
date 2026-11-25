@@ -1,4 +1,4 @@
-@import "tailwindcss";
+﻿@import "tailwindcss";
 @custom-variant dark (&:where([data-theme="obsidian"], [data-theme="obsidian"] *));
 
 :root,
@@ -160,6 +160,23 @@ body {
 
 .group:hover .logo-hover-180 {
   transform: perspective(500px) rotateY(180deg);
+}
+
+@keyframes tgPulse {
+  0% { box-shadow: 0 0 0 0 rgba(34, 158, 217, 0.55); }
+  70% { box-shadow: 0 0 0 10px rgba(34, 158, 217, 0); }
+  100% { box-shadow: 0 0 0 0 rgba(34, 158, 217, 0); }
+}
+
+.tg-pulse {
+  animation: tgPulse 2.4s infinite;
+}
+
+.gold-text {
+  background: linear-gradient(135deg, var(--gold-light) 0%, var(--gold-primary) 55%, var(--gold-hover) 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
 }
 
 @media (prefers-reduced-motion: reduce) {

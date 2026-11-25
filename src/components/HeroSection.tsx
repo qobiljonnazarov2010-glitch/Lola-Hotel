@@ -170,6 +170,27 @@ export function HeroSection({
                   <span>{t.telegramBotBtn}</span>
                 </a>
               </div>
+
+              <div
+                className="inline-flex flex-col rounded-2xl border px-6 py-4 shadow-sm"
+                style={{
+                  backgroundColor: 'var(--bg-elevated)',
+                  borderColor: 'var(--border-strong)',
+                }}
+              >
+                <span className="text-xs font-semibold uppercase tracking-[0.2em]" style={{ color: 'var(--gold-primary)' }}>
+                  {t.kokandLiveTime} · UTC+5
+                </span>
+                <time
+                  dateTime={now.toISOString()}
+                  className="font-clock gold-text text-4xl font-semibold leading-tight sm:text-5xl"
+                >
+                  {kokandClock.time24}
+                </time>
+                <span className="text-sm" style={{ color: 'var(--text-muted)' }}>
+                  {kokandClock.dateLabel}
+                </span>
+              </div>
             </div>
           </div>
 

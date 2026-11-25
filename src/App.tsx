@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import { ContactAndFooter } from './components/ContactAndFooter';
 import { ExperienceToolbar } from './components/ExperienceToolbar';
+import { FloatingContact } from './components/FloatingContact';
 import { GallerySection } from './components/GallerySection';
 import { Header } from './components/Header';
 import { HeroSection } from './components/HeroSection';
@@ -134,6 +135,8 @@ export default function App() {
 
         <ContactAndFooter t={t} />
       </main>
+
+      <FloatingContact t={t} />
     </div>
   );
 }

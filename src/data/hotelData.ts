@@ -1,4 +1,4 @@
-export type ThemeId = 'ivory-gold' | 'royal-gold' | 'obsidian';
+﻿export type ThemeId = 'ivory-gold' | 'royal-gold' | 'obsidian';
 
 export type RoomCategory = 'all' | 'king' | 'double' | 'family' | 'lounge';
 
@@ -28,20 +28,20 @@ export const HOTEL_CONFIG = {
     lng: 70.922717,
   },
   images: {
-    logo: '/assets/aistudio/logo_transparent.png',
-    reception: '/assets/aistudio/image_67b8f52b.png',
-    exteriorDay: '/assets/aistudio/image_a0e6046b.png',
-    exteriorEntrance: '/assets/aistudio/image_0d033d30.png',
-    exteriorNight: '/assets/aistudio/image_0aac7856.png',
-    exteriorGlass: '/assets/aistudio/image_c7e2d2a6.png',
-    roomKingMain: '/assets/aistudio/image_32d08783.png',
-    roomNavyMain: '/assets/aistudio/image_d29a905f.png',
-    roomNavyDesk: '/assets/aistudio/image_d5bc2eae.png',
-    roomBrickSuite: '/assets/aistudio/image_bfddbc95.png',
-    roomFamilyMain: '/assets/aistudio/image_5c74fa6d.png',
-    roomTeaStation: '/assets/aistudio/image_ba50028d.png',
-    roomWardrobeRobes: '/assets/aistudio/image_8bda2683.png',
-    loungeLanding: '/assets/aistudio/image_092bae5d.png',
+    logo: 'assets/aistudio/logo_transparent.png',
+    reception: 'assets/aistudio/image_67b8f52b.png',
+    exteriorDay: 'assets/aistudio/image_a0e6046b.png',
+    exteriorEntrance: 'assets/aistudio/image_0d033d30.png',
+    exteriorNight: 'assets/aistudio/image_0aac7856.png',
+    exteriorGlass: 'assets/aistudio/image_c7e2d2a6.png',
+    roomKingMain: 'assets/aistudio/image_32d08783.png',
+    roomNavyMain: 'assets/aistudio/image_d29a905f.png',
+    roomNavyDesk: 'assets/aistudio/image_d5bc2eae.png',
+    roomBrickSuite: 'assets/aistudio/image_bfddbc95.png',
+    roomFamilyMain: 'assets/aistudio/image_5c74fa6d.png',
+    roomTeaStation: 'assets/aistudio/image_ba50028d.png',
+    roomWardrobeRobes: 'assets/aistudio/image_8bda2683.png',
+    loungeLanding: 'assets/aistudio/image_092bae5d.png',
   },
 } as const;
 
