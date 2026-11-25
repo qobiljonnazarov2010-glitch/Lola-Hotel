@@ -1,0 +1,8 @@
+{
+  "name": " Lola Hotel",
+  "description": "Lola Hotel — Boutique Gold \u0026 White luxury hotel in the heart of Kokand, Uzbekistan (Abu Tayyib Xuqandiy 103A). Instant Booking.com reservations, 24/7 reception, Telegram concierge, and 16-language support.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
